@@ -6,10 +6,15 @@
   .heading h2 {
     font-size: 20px;
   }
-  .lesson {
+  .service {
     width: 50%;
     margin-bottom: 50px;
   }
+}
+.team {
+  width: 50%;
+  margin-bottom: 50px;
+}
 }
 
 /* --handphone-- */
@@ -36,10 +41,10 @@
   .service {
     margin-bottom: 10px;
   }
-  .btn {
-    width: 100%;
+  .team {
+    margin-bottom: 10px;
   }
-  .lesson {
+  .btn {
     width: 100%;
   }
 
