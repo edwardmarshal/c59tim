@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+
+/*--header--*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(00, 00, 00, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  color: white;
+}
+
+.header-left {
+  float: left;
+  padding: 15px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/*--top-wrapper--*/
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://raw.githubusercontent.com/edwardmarshal/c59tim/master/top.jpeg);
+  background-size: 1000px;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.serv {
+  background-color: #76cef3;
+  margin-right: 10px;
+}
+
+.tim {
+  background-color: #f09191;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+/*--Services--*/
+.service-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.service {
+  float: left;
+  width: 25%;
+}
+
+.service-icon {
+  position: relative;
+}
+
+.service-icon p {
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  color: black;
+}
+
+
+/*--Teams--*/
+.Team-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.Team {
+  float: left;
+  width: 20%;
+}
+
+.Team-icon {
+  position: relative;
+}
+
+.Team-icon p {
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  color: blac;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+
+/*--contact-form--*/
+.contact-form {
+  padding: 10px 20px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.message {
+  padding: 20px 40px;
+  background-color: #7c7c7c;
+  cursor: pointer;
+  box-shadow: 0 7px #424242;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+/*--footer--*/
+.footer {
+  background-color: black;
+  color: #fff;
+  height: 180px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+}
+
+li {
+  list-style: none;
+}
